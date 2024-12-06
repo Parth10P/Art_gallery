@@ -1,14 +1,32 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   /* font-weight: bold; */
-  font-family: 'Jaro', sans-serif;
 }
 
+body{
+  font-family: mont;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  align-content: center;
+
+
+}
 .navbar{
-  background-color: RGB(136, 176, 75); 
+  background-color: rgb(234, 208, 142); 
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
   /* border-radius: 15px;  */
 }
+.nav_tag{
+  display: flex;
+  justify-content: center;
+ }
 .navbar ul{
   overflow: auto;
 }
