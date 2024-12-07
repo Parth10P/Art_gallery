@@ -1,8 +1,8 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-weight: bold; */
+
 }
 
 body{
@@ -12,20 +12,20 @@ body{
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding:100px;
   font-weight: bold;
-  align-content: center;
-
-
+  margin-top: 100px;
+  align-items: center;
 }
 .navbar{
   background-color: rgb(234, 208, 142); 
   box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
-  /* border-radius: 15px;  */
+
 }
 .nav_tag{
   display: flex;
   justify-content: center;
+  align-items: center;
  }
 .navbar ul{
   overflow: auto;
@@ -40,6 +40,7 @@ body{
   padding: 3px 3px;
   text-decoration: none;
   color: red;
+  align-items: center;
 }
 
 .navbar ul div{
@@ -68,4 +69,58 @@ img{
   margin-bottom: 6px;
   padding: 4px;
   width: 212px;
+} */
+
+body{
+  background-color: white;
+  color: white;
+  margin: 0;
+  font-family: 'Poppins',sans-serrif;
 }
+.left {
+font-size: 1.9rem;
+transition: all 0.5s ease; 
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.left:hover {
+font-size: 2rem;
+color: rgb(101, 101, 241);
+border-radius: 15px; 
+background-color: rgb(231, 228, 91); 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(231, 228, 91);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+text-decoration: none;
+font-size: 1.2rem;
+color: white;
+padding: 5px 10px;
+border-radius: 0;
+transition: all 0.4s ease;
+}
+nav ul li a:hover {
+text-decoration: none;
+color: rgb(101, 101, 241);  
+font-size: 1.25rem;
+background-color: rgb(231, 228, 91);
+border-radius: 25px;
+}
+
+
