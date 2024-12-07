@@ -71,9 +71,17 @@ img{
   width: 212px;
 } */
 
+
+
+
+
+
+
+
+
 body{
   background-color: white;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0;
   font-family: 'Poppins',sans-serrif;
 }
@@ -86,16 +94,16 @@ font-family: 'Times New Roman', Times, serif;
 }
 .left:hover {
 font-size: 2rem;
-color: rgb(101, 101, 241);
+color: rgb(234, 9, 50);
 border-radius: 15px; 
-background-color: rgb(231, 228, 91); 
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background-color: rgb(231, 228, 91);
+    background-color: rgb(206, 193, 193);
+    box-shadow: 1px 8px 10px black ;
 }
 
 nav ul{
@@ -110,17 +118,18 @@ nav ul li{
 nav ul li a {
 text-decoration: none;
 font-size: 1.2rem;
-color: white;
+color: rgb(0, 0, 0);
 padding: 5px 10px;
 border-radius: 0;
 transition: all 0.4s ease;
+font-weight: bold;
 }
 nav ul li a:hover {
 text-decoration: none;
-color: rgb(101, 101, 241);  
+color: rgb(234, 9, 50);
+/* background-image: linear-gradient(180deg, red, yellow);   */
 font-size: 1.25rem;
-background-color: rgb(231, 228, 91);
-border-radius: 25px;
+
 }
 
 
