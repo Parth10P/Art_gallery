@@ -13,31 +13,31 @@ body {
     width: 300px;
     border-radius: 13px;
 }
-  
+
 .gallery:hover {
     cursor: pointer;
     transform: scale(1.05);
-    box-shadow: 
-                0 0 1px #0ff,
-                0 0 2px #0ff,
-                0 0 3px #0ff,
-                0 0 4px #0ff,
-                0 0 5px #0ff,
-                0 0 6px #0ff;
+    box-shadow:
+        0 0 1px #0ff,
+        0 0 2px #0ff,
+        0 0 3px #0ff,
+        0 0 4px #0ff,
+        0 0 5px #0ff,
+        0 0 6px #0ff;
 }
-  
+
 .gallery img {
     width: 100%;
     height: auto;
     border-radius: 16px;
 }
-  
+
 .desc {
     padding: 15px;
     text-align: center;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

@@ -3,83 +3,63 @@
   padding: 0;
   box-sizing: border-box;
   font-family: gilroy;
-  color:#fff;
+  color: #fff;
 }
+
 html,
-body{
+body {
   height: 100%;
-  width:100%
+  width: 100%
 }
-body{
+
+body {
   background-color: black;
 }
+
 @font-face {
   font-family: "gilroy";
   src: url("Gilroy-FREE/Gilroy-ExtraBold.otf");
 }
-/* #box1 {
-  width: 300px;
-  height: 300px;
-  background-color: crimson;
-}
-#box2{
-  width: 300px;
-  height: 300px;
-  background-color: slateblue;
-}
-h1{
-  color:#fff;
-}
-#box3{
-  width: 300px;
-  height: 300px;
-  background-color: royalblue;
-}
-#box4{
-  width: 300px;
-  height: 300px;
-  background-color: saddlebrown;
-}
-#box5{
-  width: 300px;
-  height: 300px;
-  background-color: tomato;
-} */
-h2{
-  color:#fff;
+
+h2 {
+  color: #fff;
   width: 10px;
   height: 10px;
 }
-#nav{
+
+#nav {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
-  padding:30px 50px;
+  padding: 30px 50px;
 }
 
-#part2{
+#part2 {
   display: flex;
   gap: 50px;
   font-size: 24px;
 
 }
-#part2 a:hover{
+
+#part2 a:hover {
   font-family: Bungee Spice;
   cursor: pointer;
   text-decoration: none;
 }
-.center{
+
+.center {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  font-size:80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
   white-space: nowrap;
 }
-.center:hover{
+
+.center:hover {
   font-family: Bungee Spice;
 }
 
-#part2 h4 a{
+#part2 h4 a {
   text-decoration: none;
 }
