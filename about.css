@@ -90,6 +90,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
+    overflow: hidden;
   }
   .social-icons a{
     text-decoration: none;
