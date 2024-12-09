@@ -56,10 +56,16 @@ h2{
   justify-content: space-between;
   padding:30px 50px;
 }
+
 #part2{
   display: flex;
   gap: 50px;
+  font-size: 24px;
 
+}
+#part2 h4:hover{
+  font-family: Bungee Spice;
+  cursor: pointer;
 }
 .center{
   position: absolute;
@@ -68,4 +74,7 @@ h2{
   transform:translate(-50%,-50%);
   font-size:80px;
   white-space: nowrap;
+}
+.center:hover{
+  font-family: Bungee Spice;
 }
