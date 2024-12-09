@@ -63,9 +63,10 @@ h2{
   font-size: 24px;
 
 }
-#part2 h4:hover{
+#part2 a:hover{
   font-family: Bungee Spice;
   cursor: pointer;
+  text-decoration: none;
 }
 .center{
   position: absolute;
@@ -77,4 +78,8 @@ h2{
 }
 .center:hover{
   font-family: Bungee Spice;
+}
+
+#part2 h4 a{
+  text-decoration: none;
 }
