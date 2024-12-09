@@ -1,5 +1,20 @@
 var tl = gsap.timeline()
 var tl_text = gsap.timeline()
+var tl_pic = gsap.timeline()
+
+tl_pic.from(".sahilpic",{
+    opacity:0,
+    duration:0.8,
+    delay:0.5,
+})
+tl_pic.from(".pavanpic",{
+    opacity:0,
+    duration:0.8,
+})
+tl_pic.from(".parthpic",{
+    opacity:0,
+    duration:0.8,
+})
 
 function textbreak(){
     var name = document.querySelector(".name")
