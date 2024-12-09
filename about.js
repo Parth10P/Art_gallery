@@ -138,3 +138,48 @@ tl.from(".c",{
     delay:0,
     stagger:0.1 
 })
+
+var sahil = document.querySelector(".sahil")
+
+sahil.addEventListener("mouseenter",function(){
+    gsap.to(sahil,{
+        scale:1.05,
+        duration:0.4
+    })
+})
+sahil.addEventListener("mouseleave",function(){
+    gsap.to(sahil,{
+        scale:1,
+        duration:0.4
+    })
+})
+
+var pavan = document.querySelector(".pavan")
+
+pavan.addEventListener("mouseenter",function(){
+    gsap.to(pavan,{
+        scale:1.05,
+        duration:0.4
+    })
+})
+pavan.addEventListener("mouseleave",function(){
+    gsap.to(pavan,{
+        scale:1,
+        duration:0.4
+    })
+})
+
+var parth = document.querySelector(".parth")
+
+parth.addEventListener("mouseenter",function(){
+    gsap.to(parth,{
+        scale:1.05,
+        duration:0.4
+    })
+})
+parth.addEventListener("mouseleave",function(){
+    gsap.to(parth,{
+        scale:1,
+        duration:0.4
+    })
+})

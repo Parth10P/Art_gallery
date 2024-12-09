@@ -110,7 +110,7 @@ h2 {
 
 a:hover {
   transform: scale(1.2);
-  text-shadow: 2px 2px whitesmoke;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
 
 }
 
@@ -128,4 +128,8 @@ footer {
   margin-top: 20px;
   font-size: 0.9rem;
   color: #888;
+}
+
+.sahil:hover{
+  transform: scale(1.05);
 }
