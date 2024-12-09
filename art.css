@@ -24,6 +24,7 @@ body {
         0 0 4px #0ff,
         0 0 5px #0ff,
         0 0 6px #0ff;
+    font-family: Bungee Spice;
 }
 
 .gallery img {
@@ -41,4 +42,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+#heading_art:hover{
+    font-family: Bungee Spice;
+
 }
