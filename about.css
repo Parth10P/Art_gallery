@@ -6,6 +6,7 @@ body {
   padding: 0;
   text-align: center;
   background-color: #f4f4f4;
+  cursor: none;
 }
 html,body{
   height: 100%;
@@ -15,7 +16,8 @@ html,body{
 #cursor{
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: white ;
+  border: 3px solid #007bff;
   border-radius:50%;
   position:fixed;
   font-size: 5px;
@@ -36,8 +38,9 @@ html,body{
   font-size:6vw;
   font-family:Lilita One;
   font-size: 400;
-  color:white
+  color:white;
 }
+
 #about2{
   height: 100px;
   width: 100%;
@@ -142,6 +145,8 @@ h2 {
   text-decoration: none;
   color: white;
   font-size: 40px;
+  cursor: none;
+
 }
 
 a:hover {
