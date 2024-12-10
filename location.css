@@ -9,7 +9,6 @@ body {
   line-height: 1.6;
   color: #e0e0e0;
   background-image: url('pv/pexels-photo-1260727.jpeg');
-  /* background-color: #EDDFE0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +21,6 @@ body {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1rem;
-  /* background-color: #EDDFE0; */
   display: flex;
   justify-content: center;
   align-items: center;
