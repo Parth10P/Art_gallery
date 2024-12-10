@@ -32,7 +32,7 @@ html,body{
   border-bottom-left-radius: 90%;
   border-bottom-right-radius: 90%;
   background-color: #007bff;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   font-size:6vw;
   font-family:Lilita One;
   font-size: 400;
@@ -47,7 +47,7 @@ html,body{
   border-top-left-radius: 90%;
   border-top-right-radius: 90%;
   background-color: #007bff;
-  margin-top:30px ;
+  margin-top:70px ;
 }
 
 .team {
