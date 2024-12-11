@@ -84,27 +84,6 @@ tl_text.from(".name3 span",{
     stagger:0.08,
 })
 
-// function desc(){
-//     var description = document.querySelector(".description")
-//     var descriptionText = description.textContent
-//     var splittedText = descriptionText.split("")
-
-//     var clutter = ""
-//     splittedText.forEach(function(elem){
-//     clutter += `<span>${elem}</span>`
-// })
-
-// description.innerHTML = clutter
-// }
-// desc()
-
-// tl_text.from(".description span",{
-//     y:100,
-//     opacity:0,
-//     duration:0.5,
-//     delay:0,
-//     stagger:0.08,
-// })
 
 tl_text.from(".description",{
     opacity:0,
