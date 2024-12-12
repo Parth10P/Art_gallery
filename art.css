@@ -61,8 +61,8 @@ body {
 }
 
 #cursor{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: white ;
     border: 3px solid #007bff;
     border-radius:50%;
