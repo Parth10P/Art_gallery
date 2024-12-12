@@ -5,13 +5,17 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #007bff;
   cursor: none;
+
 }
 html,body{
   height: 100%;
   width: 100%;
-  overflow: hidden;
+}
+#wholemain{
+  margin-top: 7%;
+  background-color: white;
 }
 #cursor{
   width: 20px;
@@ -34,7 +38,7 @@ html,body{
   border-bottom-left-radius: 90%;
   border-bottom-right-radius: 90%;
   background-color: #007bff;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-size:6vw;
   font-family:Lilita One;
   font-size: 400;
@@ -50,7 +54,7 @@ html,body{
   border-top-left-radius: 90%;
   border-top-right-radius: 90%;
   background-color: #007bff;
-  margin-top:70px ;
+  margin-top:10px ;
 }
 
 .team {
@@ -166,11 +170,80 @@ a:hover {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 0.9rem;
   color: #888;
 }
 
 .sahil:hover{
   transform: scale(1.05);
+}
+
+
+#cursor{
+  width: 20px;
+  height: 20px;
+  background-color: white ;
+  border: 3px solid #007bff;
+  border-radius:50%;
+  position:fixed;
+  font-size: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+
+}
+#mainx{
+  font-family: gilroy;
+  display: flex;
+  justify-content: center;
+}
+#nav{
+  display: flex;
+  border:1px solid white;
+  border-radius:60px;
+  justify-content: space-between;
+  width:90%;
+  position: fixed;
+  background-color: #007bff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#navbar {
+  display: flex;
+  gap:30px;
+  padding: 50px 70px;
+  font-size: 24px;
+}
+
+.nav-item a:hover {
+  font-family: Bungee Spice;
+  cursor: none;
+  text-decoration: none;
+  text-shadow: none;
+
+}
+.img{
+  display: flex;
+  padding: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  cursor: none;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
+  src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+  url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }
