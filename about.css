@@ -6,12 +6,13 @@ body {
   padding: 0;
   text-align: center;
   background-color: #007bff;
-  cursor: none;
-
+  cursor: none;    
 }
 html,body{
   height: 100%;
   width: 100%;
+  position: relative;
+
 }
 #wholemain{
   margin-top: 7%;
@@ -24,12 +25,9 @@ html,body{
   border: 3px solid #007bff;
   border-radius:50%;
   position:fixed;
-  font-size: 5px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  z-index: 10;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+
 
 }
 #about {
