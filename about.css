@@ -6,12 +6,12 @@ body {
   padding: 0;
   text-align: center;
   background-color: #007bff;
-  cursor: none;    
+  /* cursor: none;     */
 }
 html,body{
   height: 100%;
   width: 100%;
-  position: relative;
+  /* position: relative; */
 
 }
 #wholemain{
@@ -26,9 +26,7 @@ html,body{
   border-radius:50%;
   position:fixed;
   transform: translate(-50%, -50%);
-  z-index: 99999;
-
-
+  /* z-index: 9999; */
 }
 #about {
   height: 150px;
@@ -178,21 +176,15 @@ footer {
 }
 
 
-#cursor{
+/* #cursor{
   width: 20px;
   height: 20px;
   background-color: white ;
   border: 3px solid #007bff;
   border-radius:50%;
   position:fixed;
-  font-size: 5px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   z-index: 10;
-
-}
+} */
 #mainx{
   font-family: gilroy;
   display: flex;
@@ -218,11 +210,12 @@ footer {
   font-size: 24px;
 }
 
+
 .nav-item a:hover {
   font-family: Bungee Spice;
-  cursor: none;
+  cursor: pointer;
   text-decoration: none;
-  text-shadow: none;
+  /* text-shadow: none; */
 
 }
 .img{
