@@ -8,8 +8,9 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #e0e0e0;
-  background-image: url('pv/pexels-photo-1260727.jpeg');
+  background-image: url('BG.jpg');
   margin: 0;
+  background-size: cover;
   min-height: 100vh;
 }
 
