@@ -173,3 +173,10 @@ main.addEventListener("mousemove",function(dets){
     })
 })
 
+// gsap.to("#navbar", {
+//     duration: 1,
+//     onComplete: () => {
+//       document.getElementById("#navbar").style.fontFamily = "'Times New Roman', serif";
+//     }
+//   });
+
