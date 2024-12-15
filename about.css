@@ -211,11 +211,12 @@ footer {
 }
 
 
+
 .nav-item a:hover {
   font-family: Bungee Spice;
   cursor: pointer;
   text-decoration: none;
-  /* text-shadow: none; */
+  text-shadow: none;
 
 }
 .img{

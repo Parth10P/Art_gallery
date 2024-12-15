@@ -172,3 +172,4 @@ main.addEventListener("mousemove",function(dets){
         ease:"circ.out"
     })
 })
+
