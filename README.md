@@ -1,7 +1,7 @@
 # The ArtSphere
-1st sem Collage project:
+**1st sem Collage project:**
 
-Team members are:
+**Team members are:**
 
 1. **Patel Parthkumar**
 
