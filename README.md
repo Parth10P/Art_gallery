@@ -12,4 +12,6 @@ Team members are:
 3. AN Pavan Sai
 
         github_link : https://github.com/AN-Pavan-Sai
-        linkdin     : 
+
+
+Our Website link    : https://parth10p.github.io/Art_gallery/
