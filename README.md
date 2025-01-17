@@ -1,4 +1,4 @@
-# Art_gallery
+# The ArtSphere
 1st sem Collage project:
 Team members are:
 1. Patel Parthkumar
