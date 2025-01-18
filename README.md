@@ -1,6 +1,8 @@
 # The ArtSphere
 1st sem Collage project:
+
 Team members are:
+
 1. Patel Parthkumar
 
         github_link : https://github.com/Parth10P
