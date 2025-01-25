@@ -41,6 +41,7 @@ html{
   font-weight: 700;
   color: #7a8fe8;
 }
+
 span.seis{
   position: absolute;
   top: 50%;
@@ -54,6 +55,7 @@ span.sete{
   margin-right: -237px;
   animation: vem_2017 6s ease-in-out forwards;
 }
+
 span.sete:before{
   content: '';
   width: 0px;
@@ -116,6 +118,7 @@ span.sete:before{
   left: 0;
   overflow: hidden;
 }
+
 .fogos>div{
   border: 2px solid #fff;
   position: absolute;
@@ -138,6 +141,7 @@ span.sete:before{
   right: 15%;
   top: 70%;
 }
+
 .fogos>div span{
   width: 6px;
   height: 6px;
