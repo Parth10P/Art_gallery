@@ -15,15 +15,6 @@ body {
 }
 
 
-#featured-products {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15%;
-}
 
 
 
@@ -64,6 +55,15 @@ img {
 
 .product-grid::-webkit-scrollbar {
   display: none;
+}
+#featured-products {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
 }
 
 
