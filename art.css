@@ -108,12 +108,13 @@ body {
   }
 
 
-  .img{
-    display: flex;
-    padding: 20px;
-  }
-
   .nav-item a {
     text-decoration: none;
     color: white;
+  }
+
+
+  .img{
+    display: flex;
+    padding: 20px;
   }
