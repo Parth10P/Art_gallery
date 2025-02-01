@@ -1,5 +1,5 @@
 # The ArtSphere
-<!-- **1st sem Collage project:** -->
+**1st sem Collage project:**
 
 **Team members:**
 
