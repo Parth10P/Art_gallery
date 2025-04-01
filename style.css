@@ -10,8 +10,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin-top:10px ;
-
+  margin-top: 10px;
 }
 
 body {
@@ -19,40 +18,42 @@ body {
   overflow: hidden;
 }
 @font-face {
-  font-family: 'Gilroy';
-  src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
-  src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
-  url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
-  url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
-  url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
+  font-family: "Gilroy";
+  src: url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot");
+  src: local("Gilroy Extrabold"), local("Gilroy-Extrabold"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf")
+      format("truetype");
   font-weight: 800;
   font-style: normal;
 }
-#cursor{
+#cursor {
   width: 30px;
   height: 30px;
-  background-color: white ;
+  background-color: white;
   border: 3px solid #007bff;
-  border-radius:50%;
-  position:fixed;
+  border-radius: 50%;
+  position: fixed;
   font-size: 5px;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   z-index: 10;
-
 }
-#mainx{
+#mainx {
   display: flex;
   justify-content: center;
 }
-#nav{
+#nav {
   display: flex;
-  border:1px solid white;
-  border-radius:60px;
+  border: 1px solid white;
+  border-radius: 60px;
   justify-content: space-between;
-  width:90%;
+  width: 90%;
   position: fixed;
   background-color: #007bff;
   background: rgba(255, 255, 255, 0.2);
@@ -61,7 +62,7 @@ body {
 }
 #navbar {
   display: flex;
-  gap:30px;
+  gap: 30px;
   padding: 50px 70px;
   font-size: 24px;
 }
@@ -71,12 +72,10 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-.img{
+.img {
   display: flex;
   padding: 20px;
 }
-
-
 
 .center {
   position: absolute;
@@ -112,5 +111,5 @@ body {
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
-  object-fit: cover; 
+  object-fit: cover;
 }
